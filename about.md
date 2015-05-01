@@ -3,28 +3,16 @@ layout: page
 title: About
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+<p>My Twitter account for contacts: <a href="https://twitter.com/grudelsud">@grudelsud</a></p>
+<p>On this website, all the content falls in one of these categories (<strong>careful, these links are still broken while I'm trying to figure out how to make categories work on Jekyll</strong>):</p>
+<ul>
+	<li>My project <a href="/category/portfolio/">portfolio</a></li>
+	<li>Some notes about <a href="/category/development/">development</a></li>
+	<li>Some posts on <a href="/category/research/">research</a></li>
+	<li>My scientific <a href="/category/publications/">publications</a></li>
+	<li><a href="/category/misc/">Other stuff</a></li>
+</ul>
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
-
-There are currently two themes built on Poole:
-
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
-
-Learn more and contribute on [GitHub](https://github.com/poole).
-
-## Setup
-
-Some fun facts about the setup of this project include:
-
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
+<p>For an updated resume, just check my <a href="http://uk.linkedin.com/in/thomasalisi">LinkedIn profile</a>.</p>
+<p>To make a long story short, I am interested in media applications, semantic web, mobile applications (mainly android), social network analysis, real-time web, interactive environments and project management of all the above.</p>
+<p>I have also a record of scientific publications which are not mentioned on my LinkedIn profile, please check my profile on <a href="https://www.researchgate.net/profile/Thomas_Alisi/publications/">Research Gate</a>.</p>
