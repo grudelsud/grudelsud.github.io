@@ -1,7 +1,7 @@
 ---
 layout: post
 type: post
-title: back home after PyCon6
+title: Back home after PyCon6
 date: 2015-04-19
 categories:
 - miscellanea

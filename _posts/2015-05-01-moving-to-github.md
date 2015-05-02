@@ -10,7 +10,7 @@ status: publish
 published: true
 ---
 
-I'm moving all my content out of my previous wordpress to host it on github pages with Jekyll. Everything is still a bit broken, but all the content is here. I don't to spend time setting up 301 for the few posts on my old blog that are generating some traffic, so I'll probably get a little hit, but the traffic was quite low anyway.
+I'm moving all my content out of my previous wordpress to host it on github pages with Jekyll. Everything is still a bit broken, but all the content is here. I don't intend to spend time setting up 301 codes for the few posts I have on my old blog, but hopefully the permalink structure should be the same. If you happen to search anything in particular and cannot find it, please contact me via a twitter mention @grudelsud
 
 here a few links I found quite useful while moving things around and getting aquainted with Jekyll:
 
