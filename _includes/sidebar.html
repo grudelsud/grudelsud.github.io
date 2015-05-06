@@ -26,6 +26,10 @@
         {% endif %}
       {% endfor %}
 
+      {% for category in site.categories %}
+        <a class="sidebar-nav-item" href="/category/{{ category | first }}">{{ category | first }}</a>
+      {% endfor %}
+
     </nav>
 
     <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
