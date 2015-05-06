@@ -26,23 +26,29 @@ excerpt: !ruby/object:Hpricot::Doc
 <p>For future memory, here's a solution that makes me happy, and hopefully next time will only be a few minutes headache (although I already know it won't be the case...)</p>
 <p>- copy the default wsgi.py to a new file called <strong>apache_wsgi.py</strong></p>
 <p>- modify the new <strong>apache_wsgi.py</strong> so that it reads:</p>
-<pre class="brush:python">
+
+{% highlight python %}
 import os
 import mod_wsgi
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "project_name.settings.%s" % mod_wsgi.process_group)
 
 from django.core.wsgi import get_wsgi_application
 application = get_wsgi_application()
-</pre>
+{% endhighlight %}
+
 <p>- now open your <strong>virtualhost</strong> configuration file and check it contains the following</p>
-<pre class="brush:bash">
+
+{% highlight python %}
 WSGIScriptAlias / /path/to/your/apache_wsgi.py
 WSGIDaemonProcess pick_settings_file_name processes=2 threads=15 python-path=/path/to/virtualenv/lib/python2.7/site-packages:/path/to/django/project
 WSGIProcessGroup pick_settings_file_name
-</pre>
+{% endhighlight %}
+
 <p>- almost there! create a <strong>/settings</strong> folder sibling of settings.py, put an empty __init__.py in it, then move settings.py inside that folder, rename it to common.py and create a new <strong>pick_settings_file_name.py</strong> with a single liner in it</p>
-<pre class="brush:python">
+
+{% highlight python %}
 from .common import *
-</pre>
+{% endhighlight %}
+
 <p>VOILAAAAAAAAAAAAAAA!!!!</p>
 <p>just restart your apache and everything will work. in your pick_settings_file_name.py you will have configurations specific for your environment (i.e. multiple copies of the file for dev, staging: project_dev.py, project_staging.py)</p>
