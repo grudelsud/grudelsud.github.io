@@ -8,8 +8,8 @@ relative_permalinks: true
 
 # Setup
 title:            'Thomas M. Alisi'
-tagline:          'home of grudelsud'
-description:      'putting together what I have done along few years, mostly for work and overnight'
+tagline:          'specialization is for insects'
+description:      'AKA grudelsud'
 url:              http://grudelsud.github.io
 baseurl:          /
 

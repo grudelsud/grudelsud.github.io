@@ -21,11 +21,14 @@ layout: default
         {% endif %}
       {% endif %}
 
-        <h1 class="post-title">
+        {% if post.poster %}
+        <img src="{{ post.poster}}" alt="">
+        {% endif %}
+        <h2 class="post-title">
           <a href="{{ post.url }}" class="list-group-item">
             {{ post.title }}
           </a>
-        </h1>
+        </h2>
         <span class="post-date">{{ post.date }}</span>
 
       {% if forloop.last %}
