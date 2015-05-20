@@ -1,7 +1,7 @@
 ---
 layout: post
 type: post
-title: Convert Longitude-Latitude to a flat map (both Python and PostGIS)
+title: Convert Longitude-Latitude to a flat map using Python and PostGIS
 date: 2015-05-19
 categories:
 - development

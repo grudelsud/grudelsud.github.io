@@ -26,3 +26,6 @@ github:
   repo:           https://github.com/grudelsud/grudelsud.github.io
 
 encoding:         utf-8
+
+gems:
+  - jekyll-sitemap
