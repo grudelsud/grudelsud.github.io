@@ -9,6 +9,7 @@ tags:
 status: publish
 type: post
 published: true
+comments: true
 meta:
   _edit_last: '1'
   dsq_thread_id: '487593187'
@@ -38,7 +39,7 @@ excerpt: !ruby/object:Hpricot::Doc
     root /home/ubuntu/repo/webapp;
     index index.php index.html;
 
-    # links to static files in the main app, mainly for dev purposes as this is 
+    # links to static files in the main app, mainly for dev purposes as this is
     # unlikely to be triggered when using a CDN with absolute URLs to assets
     location ~* ^/(css|img|js|flv|swf)/(.+)$ {
         root /home/ubuntu/repo/webapp/application/public;
@@ -50,7 +51,7 @@ excerpt: !ruby/object:Hpricot::Doc
         try_files $uri $uri/ @ci;
     }
 
-    # create the code igniter path and perform 
+    # create the code igniter path and perform
     # internal redirect to php location block
     location @ci {
         if (!-e $request_filename)
@@ -69,9 +70,9 @@ excerpt: !ruby/object:Hpricot::Doc
 
         # but we might have received a request for a blog address
         if ($request_uri ~ /blog/) {
-            # ok, this line is a bit confusing, be aware 
+            # ok, this line is a bit confusing, be aware
             # that path to /blog/ is already in the request
-            # so adding a trailing /blog here will 
+            # so adding a trailing /blog here will
             # give a "no input file" message
             set $php_root /home/ubuntu/repo;
         }
@@ -92,7 +93,7 @@ excerpt: !ruby/object:Hpricot::Doc
 
     # now the blog, remember this lives in a sibling directory of the main app
     location ~ /blog/ {
-        # again, this might look a bit weird, 
+        # again, this might look a bit weird,
         # but remember that root directive doesn't drop
         # the request prefix, so /blog is appended at the end
         root /home/ubuntu/repo;

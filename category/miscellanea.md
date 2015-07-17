@@ -1,5 +1,5 @@
 ---
 layout: category
 category: miscellanea
-permalink: miscellanea/
+permalink: /category/miscellanea/
 ---

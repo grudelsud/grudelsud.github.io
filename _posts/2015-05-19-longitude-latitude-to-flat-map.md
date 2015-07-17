@@ -8,6 +8,7 @@ categories:
 tags: []
 status: publish
 published: true
+comments: true
 ---
 
 I've recently had to develop a web app that shows Tweets locations on a map. It's simple enough to extract a tweet's location (when present), just check the [API Docs for a Tweet object][tweet_obj] and you'll find a *coordinates* field that reportedly:

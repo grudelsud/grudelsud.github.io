@@ -1,5 +1,5 @@
 ---
 layout: category
 category: publications
-permalink: publications/
+permalink: /category/publications/
 ---

@@ -1,5 +1,5 @@
 ---
 layout: category
 category: research
-permalink: research/
+permalink: /category/research/
 ---

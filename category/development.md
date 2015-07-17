@@ -1,5 +1,5 @@
 ---
 layout: category
 category: development
-permalink: development/
+permalink: /category/development/
 ---

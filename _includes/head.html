@@ -12,6 +12,18 @@
     {% else %}
       {{ page.title }} &middot; {{ site.title }}
     {% endif %}
+
+    {% if page.desc %}
+    <meta name="description" content="{{ page.description }}" />
+    {% else %}
+    <meta name="description" content="Hello, my name is Thomas Alisi and I still need to understand what to do when I grow up" />
+    {% endif %}
+
+    {% if page.keywords %}
+    <meta name="keywords" content="{{ page.keywords }}" />
+    {% else %}
+    <meta name="keywords" content="development, digital, python, django, javascript, research, semantic web, interactive, video" />
+    {% endif %}
   </title>
 
   <!-- CSS -->

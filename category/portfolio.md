@@ -1,5 +1,5 @@
 ---
 layout: category
 category: portfolio
-permalink: portfolio/
+permalink: /category/portfolio/
 ---
