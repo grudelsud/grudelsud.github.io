@@ -10,9 +10,9 @@ status: publish
 published: true
 ---
 
-I'm moving all my content out of my previous wordpress to host it on github pages with Jekyll. Everything is still a bit broken, but all the content is here. I don't intend to spend time setting up 301 codes for the few posts I have on my old blog, but hopefully the permalink structure should be the same. If you happen to search anything in particular and cannot find it, please contact me via a twitter mention @grudelsud
+I'm moving all my content out of my previous Wordpress to host it on github pages with Jekyll. Everything is still a bit broken, but all the content is here. I don't intend to spend time setting up 301 codes for the few posts I have on my old blog, but hopefully the permalink structure should be the same. If you happen to search anything in particular and cannot find it, please contact me via a twitter mention @grudelsud
 
-here a few links I found quite useful while moving things around and getting aquainted with Jekyll:
+here a few links I found quite useful while moving things around and getting acquainted with Jekyll:
 
 - [help pages on github](https://help.github.com/articles/using-jekyll-with-pages/)
 - [use jekyll importer](http://import.jekyllrb.com/docs/wordpressdotcom/)
