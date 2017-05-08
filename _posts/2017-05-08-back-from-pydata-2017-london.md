@@ -24,12 +24,13 @@ Pirelli has a 140 year old tradition of manufacturing with 20 factories across 1
 
 The creation of a Data Science and Analytics department at the beginning of 2016 has the goal of speeding up change and innovation, starting from areas that are harder to tackle. Some of the most interesting challenges include:
 
-bring data products at shop floor to increase efficiency while being aware of UX principles
-keep 2-sided communication alive with wide number of actors, particularly with IT, quality and engineering
-encourage active participation by providing accessible analytics tools and an internal Academy training program
-activate the virtuous circle of prototyping, feasibility check and production releases for sound product lifecycles
-introduce Agile development methodologies in traditional waterfall environments
-shape a roadmap with principal stakeholders starting from off-line through live analysis and heading to ahead-of-time predictions
+- bring data products at shop floor to increase efficiency while being aware of UX principles
+- keep 2-sided communication alive with wide number of actors, particularly with IT, quality and engineering
+- encourage active participation by providing accessible analytics tools and an internal Academy training program
+- activate the virtuous circle of prototyping, feasibility check and production releases for sound product lifecycles
+- introduce Agile development methodologies in traditional waterfall environments
+- shape a roadmap with principal stakeholders starting from off-line through live analysis and heading to ahead-of-time predictions
+
 opening a steady communication channel across groups is progressively eroding barriers between white and blue collars, allowing teams to better understand each other requirements and kicking off a broader conversation. At the end of the first year since releasing the first prototype, there is much more on the plate, and groups are now more familiar with concepts of User Experience, release lifecycle, data exploration and agile development.
 
 ## Outline
@@ -38,5 +39,7 @@ In this talk we are going to show the data science team approach to prototyping 
 The sheer variety of technologies involved in the process is probably the biggest challenge when deploying at production level: aside standard data processing and machine learning packages, such as Pandas and scikit-learn, our Flask and Django based web infrastructures interact with MsSQL servers, JBoss data virtualisers, a Hadoop cluster and Oracle data warehouse, responsively adapting their output for different contexts with Angular and React front-ends.
 
 The introduction of data products has triggered a little revolution allowing to improve and widen the offer of internal training via an Academy program, in search of competences inside the factories for all people willing to open an editor and write some Python and Javascript.
+
+---
 
 P.S. link to a gist with my notes from the conference [here](https://gist.github.com/grudelsud/a40704fbd76c03e2870792cb3674fabe)
