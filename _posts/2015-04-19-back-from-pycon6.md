@@ -4,7 +4,7 @@ type: post
 title: Back home after PyCon6
 date: 2015-04-19
 categories:
-- miscellanea
+- events
 tags: []
 status: publish
 published: true

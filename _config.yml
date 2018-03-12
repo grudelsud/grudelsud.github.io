@@ -1,15 +1,16 @@
 # Dependencies
-markdown:         redcarpet
-highlighter:      pygments
+# markdown:         redcarpet
+highlighter:      rouge
 
 # Permalinks
 permalink:        /:year/:month/:title/
 # relative_permalinks: true
+paginate_path: "/blog/page:num/"
 
 # Setup
-title:            'Thomas M. Alisi'
+title:            'Tom Alisi'
 tagline:          'specialization is for insects'
-description:      'AKA grudelsud'
+description:      'Fast learner and job titles disliker. Roughly: Entrepreneur, PhD, Solutions Architect, Developer'
 url:              http://tom.londondroids.com
 baseurl:          /
 
@@ -17,15 +18,17 @@ author:
   name:           'Thomas M. Alisi'
   url:            https://twitter.com/grudelsud
 
-paginate:         5
+paginate:         3
 
 # Custom vars
-version:          2.1.0
+# version:          2.1.0
 
 github:
   repo:           https://github.com/grudelsud/grudelsud.github.io
 
 encoding:         utf-8
 
-gems:
+plugins:
   - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-gist

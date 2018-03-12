@@ -1,37 +1,31 @@
 ---
 layout: default
-title: Home
+title: Hello!
 ---
 
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
+<p>Hi, I'm Tom Alisi</p>
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+<h2>I like to build digital products</h2>
 
-    {{ post.content }}
-  </div>
-  {% endfor %}
-</div>
+<p>I am a software engineer with entrepreneurial attitude, problem solving approach and a particular propensity for large scale web based projects. For an updated resume, check my <a href="http://uk.linkedin.com/in/thomasalisi">LinkedIn profile</a>.</p>
 
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
-</div>
+<h2>I like to help connecting people</h2>
+
+<p>I quite enjoy the thrill of a stage and appear as speaker at technical conferences to show what I have been doing every now and then</p>
+
+<p>I am also the proud founder and manager of Devcon.London, an invitation only community of technical leads and developers. </p>
+
+<p>If interested in any of these, feel free to get in touch using my Twitter account: <a href="https://twitter.com/grudelsud">@grudelsud</a></p>
+
+<h2>This website content</h2>
+
+<p>I don't write much here but, when I do, all the content falls in one of the categories:</p>
+<ul>
+  <li>Notes about <a href="/category/development/">development</a></li>
+  <li>Speaking and notes from <a href="/category/events/">conferences and the like</a></li>
+  <li>Posts on <a href="/category/research/">research topics</a></li>
+  <li>Projects <a href="/category/portfolio/">portfolio</a>, mostly old stuff I keep here for nostalgic reasons</li>
+  <li>My scientific <a href="/category/publications/">publications</a>, when I was still a respectable Professor. My full record of papers is on <a href="https://www.researchgate.net/profile/Thomas_Alisi/publications/">Research Gate</a>.</li>
+  <li><a href="/category/misc/">Everything else</a></li>
+</ul>
+

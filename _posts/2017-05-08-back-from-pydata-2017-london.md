@@ -4,7 +4,7 @@ type: post
 title: Back from PyData 2017 London
 date: 2017-05-08
 categories:
-- miscellanea
+- events
 tags: []
 status: publish
 published: true

@@ -12,19 +12,19 @@
     {% else %}
       {{ page.title }} &middot; {{ site.title }}
     {% endif %}
-
-    {% if page.desc %}
-    <meta name="description" content="{{ page.description }}" />
-    {% else %}
-    <meta name="description" content="Hello, my name is Thomas Alisi and I still need to understand what to do when I grow up" />
-    {% endif %}
-
-    {% if page.keywords %}
-    <meta name="keywords" content="{{ page.keywords }}" />
-    {% else %}
-    <meta name="keywords" content="development, digital, python, django, javascript, research, semantic web, interactive, video" />
-    {% endif %}
   </title>
+
+  {% if page.desc %}
+  <meta name="description" content="{{ page.description }}" />
+  {% else %}
+  <meta name="description" content="Fast learner and job titles disliker. Roughly: Entrepreneur, PhD, Solutions Architect, Developer." />
+  {% endif %}
+
+  {% if page.keywords %}
+  <meta name="keywords" content="{{ page.keywords }}" />
+  {% else %}
+  <meta name="keywords" content="Data analysis, machine learning, data visualisation and product development. Development in Python (Django, Flask, App Engine, Pandas, ...), Javascript (React, Angular, d3, ...), database design (postgresql, mysql, mongo, ...). Technical project management, production, Agile team leading. Research & Development of web / media / semantic / data mining projects. DevOps, AWS, Docker, Cloud platforms, TDD, Continuous Integration. Information Architecture. Interaction and UX design." />
+  {% endif %}
 
   <!-- CSS -->
   <link rel="stylesheet" href="{{ site.baseurl }}public/css/poole.css">
@@ -34,7 +34,7 @@
 
   <!-- Icons -->
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.baseurl }}public/apple-touch-icon-144-precomposed.png">
-                                 <link rel="shortcut icon" href="{{ site.baseurl }}public/favicon.ico">
+  <link rel="shortcut icon" href="{{ site.baseurl }}public/favicon.ico">
 
   <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
