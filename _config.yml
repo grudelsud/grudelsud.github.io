@@ -1,32 +1,25 @@
 # Dependencies
-# markdown:         redcarpet
-highlighter:      rouge
+highlighter: rouge
 
 # Permalinks
-permalink:        /:year/:month/:title/
-# relative_permalinks: true
+permalink: /:year/:month/:title/
 paginate_path: "/blog/page:num/"
 
 # Setup
-title:            'Tom Alisi'
-tagline:          'specialization is for insects'
-description:      'Fast learner and job titles disliker. Roughly: Entrepreneur, PhD, Solutions Architect, Developer'
-url:              http://tom.londondroids.com
-baseurl:          /
+title: 'Tom Alisi'
+tagline: 'specialization is for insects'
+description: 'Fast learner and job titles disliker. Roughly: Entrepreneur, PhD, Solutions Architect, Developer'
+baseurl: http://tom.londondroids.com
 
 author:
-  name:           'Thomas M. Alisi'
-  url:            https://twitter.com/grudelsud
+  name: 'Tom Alisi'
 
-paginate:         3
-
-# Custom vars
-# version:          2.1.0
+paginate: 3
 
 github:
-  repo:           https://github.com/grudelsud/grudelsud.github.io
+  repo: https://github.com/grudelsud/grudelsud.github.io
 
-encoding:         utf-8
+encoding: utf-8
 
 plugins:
   - jekyll-sitemap

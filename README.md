@@ -2,7 +2,7 @@
 
 ```bash
 # run the server locally, just follow the docs https://jekyllrb.com/
-bundle exec jekyll serve
+bundle exec jekyll serve --baseurl='/'
 ```
 
 ```bash
