@@ -9,17 +9,6 @@ status: publish
 type: post
 published: true
 comments: true
-meta:
-  _wpas_done_all: '1'
-  _edit_last: '1'
-author:
-  login: admin
-  email: tom@londondroids.com
-  display_name: tom
-  first_name: Tom
-  last_name: Alisi
-excerpt: !ruby/object:Hpricot::Doc
-  options: {}
 ---
 
 ![Bikes in the tunnel](/images/eurotunnel-544x544.jpg)

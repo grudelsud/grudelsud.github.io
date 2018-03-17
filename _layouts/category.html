@@ -24,13 +24,16 @@ layout: default
         {% if post.poster %}
         <img src="{{ post.poster}}" alt="">
         {% endif %}
+
         <h2 class="post-title">
           <a href="{{ post.url }}" class="list-group-item">
             {{ post.title }}
           </a>
         </h2>
-        <span class="post-date">{{ post.date }}</span>
-        {{ post.content }}
+        <span class="post-date">{{ post.date | date_to_string }}</span>
+
+        {{ post.excerpt }}
+        <a href="{{ post.url }}">Read more</a>
 
       {% if forloop.last %}
         </div>
