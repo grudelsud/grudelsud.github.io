@@ -4,7 +4,6 @@ title: Posts
 ---
 
 <div class="posts">
-
   {% for post in paginator.posts %}
   <div class="post">
     <h1 class="post-title">
@@ -15,7 +14,8 @@ title: Posts
 
     <span class="post-date">{{ post.date | date_to_string }}</span>
 
-    {{ post.content }}
+    {{ post.excerpt }}
+    <a href="{{ post.url }}">Read more</a>
   </div>
   {% endfor %}
 </div>
