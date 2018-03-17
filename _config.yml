@@ -9,10 +9,12 @@ paginate_path: "/blog/page:num/"
 title: 'Tom Alisi'
 tagline: 'specialization is for insects'
 description: 'Fast learner and job titles disliker. Roughly: Entrepreneur, PhD, Solutions Architect, Developer'
-baseurl: http://tom.londondroids.com/
+
+# baseurl: http://tom.londondroids.com/
+baseurl: /
 
 # sitemap
-url: http://tom.londondroids.com/
+url: http://tom.londondroids.com
 
 author:
   name: 'Tom Alisi'
