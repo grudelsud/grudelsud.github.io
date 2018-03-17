@@ -11,6 +11,9 @@ tagline: 'specialization is for insects'
 description: 'Fast learner and job titles disliker. Roughly: Entrepreneur, PhD, Solutions Architect, Developer'
 baseurl: http://tom.londondroids.com/
 
+# sitemap
+url: http://tom.londondroids.com/
+
 author:
   name: 'Tom Alisi'
 
