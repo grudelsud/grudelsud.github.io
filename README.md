@@ -8,7 +8,7 @@ bundle exec jekyll serve
 ```bash
 # to update jekyll and stuff
 bundle update
-# I had troubles upgrading nokogiri, as described https://github.com/sparklemotion/nokogiri/issues/1693 solved by
+# if having troubles upgrading nokogiri, as described https://github.com/sparklemotion/nokogiri/issues/1693 this is solved by
 # brew unlink xz
 # install nokogiri and do a bundle update
 # brew link xz

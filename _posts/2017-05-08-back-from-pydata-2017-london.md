@@ -12,7 +12,7 @@ published: true
 
 Back from [#PyData2017 London](https://pydata.org/london2017/) where I gave a talk called "Show me the failures!", showing how the Data Science and Analytics team at Pirelli approach the problem of designing and implementing data products at shop floor.
 
-Thank you again to all the crew, you guys have been amazing: venue, food, schedule were absolutely spot on. Bring it on and looking forward to coming over for #PyData2018! Below outline of my talk.
+Thank you again to all the crew, you guys have been amazing: venue, food, schedule were absolutely spot on. Bring it on and looking forward to coming over for #PyData2018! Here a [link](http://bit.ly/failures-pydata17) to the slides and below outline of my talk.
 
 ## Description
 The Data Science and Analytics group at Pirelli has to deal with factories' day to day that can't be further from the aseptic crunching of data from a keyboard in an office. Our group took the lift, went down at shop floor and started asking questions to try and make their life better: turns out questions flowed the other way round and results were startling.
