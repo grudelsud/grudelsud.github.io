@@ -12,7 +12,7 @@ description: 'Fast learner and job titles disliker. Roughly: Entrepreneur, PhD, 
 baseurl: '/'
 
 # sitemap
-url: http://tom.londondroids.com
+url: https://tom.londondroids.com
 
 author:
   name: 'Tom Alisi'
