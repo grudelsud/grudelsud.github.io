@@ -6,16 +6,16 @@ permalink: /:year/:month/:title/
 paginate_path: "/blog/page:num/"
 
 # Setup
-title: 'Tom Alisi'
+title: 'Thomas Alisi'
 tagline: 'specialization is for insects'
-description: 'Fast learner and job titles disliker. Roughly: Entrepreneur, PhD, Solutions Architect, Developer'
+description: 'Fast learner, PhD, Tech Lead, Developer, job titles disliker. Entrepreneurial kind.'
 baseurl: '/'
 
 # sitemap
 url: https://tom.londondroids.com
 
 author:
-  name: 'Tom Alisi'
+  name: 'Thomas Alisi'
 
 paginate: 3
 

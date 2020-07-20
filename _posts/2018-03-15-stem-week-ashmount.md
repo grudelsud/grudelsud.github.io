@@ -16,10 +16,10 @@ So great to go to [Ashmount Primary](http://www.ashmountprimaryschool.co.uk/) an
 
 a Web VR experience with some basic 3D shapes and have a chance to try it on with Google cardboard
 
-<iframe src="http://tom.londondroids.com/STEM-1803/slides/vr.html" width="550" height="450" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen></iframe>
+<iframe src="https://tom.londondroids.com/STEM-1803/slides/vr.html" width="550" height="450" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen></iframe>
 
 # Year 5
 
 A little vanilla Javascript coding session to make some music in the internet browser
 
-<iframe src="http://tom.londondroids.com/STEM-1803/slides/audio.html" width="550" height="450" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen></iframe>
+<iframe src="https://tom.londondroids.com/STEM-1803/slides/audio.html" width="550" height="450" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen></iframe>
